@@ -57,7 +57,10 @@ public class Main {
                     daftar.hapusItem(index);
                 }
                 case 0 -> System.out.println("Terima kasih telah menggunakan aplikasi 😊");
-                default -> System.out.println("Pilihan tidak valid, coba lagi.");
+                default -> {
+                    System.out.println("Pilihan tidak valid, coba lagi.");
+                    System.out.println("pilihan ditolak");
+                }
             }
         }
         input.close();
